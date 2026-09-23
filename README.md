@@ -19,9 +19,26 @@ I'm **Seeuagaen**, a **Middle DevOps Engineer** with experience across **fronten
 
 ```yaml
 role: Middle DevOps Engineer
+location: Astana, Kazakhstan
+
 focus: [DevOps, Frontend, Backend]
-frontend: React
-approach: build → deploy → observe → improve
+frontend: [React, JavaScript, HTML, CSS]
+backend: [Python, PHP, MySQL]
+
+infrastructure:
+  os: Linux
+  containers: Docker
+  web: Nginx
+  ci_cd: [GitHub Actions, GitLab CI/CD]
+  vcs: Git
+
+principles:
+  - automate repetitive work
+  - keep deployments reproducible
+  - understand the full delivery lifecycle
+
+approach: build → test → deploy → observe → improve
+mindset: infrastructure thinking · full-stack perspective
 ```
 
 ### 02 / Toolkit

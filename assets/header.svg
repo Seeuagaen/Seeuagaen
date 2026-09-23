@@ -32,8 +32,7 @@
     <text x="60" y="193" class="mono" fill="#58e5ed" font-size="23">Middle DevOps Engineer</text>
     <text x="60" y="237" class="sans" fill="#a7b4c9" font-size="19">Frontend / Backend / React</text>
     <path d="M60 272H620" stroke="url(#accent)" opacity=".5"/>
-    <text x="60" y="312" class="mono" fill="#8595af" font-size="15"><tspan fill="#a78bfa">~</tspan> building across the stack</text>
-    <rect class="cursor" x="365" y="297" width="9" height="18" fill="#58e5ed"/>
+    <text x="60" y="312" class="mono" fill="#8595af" font-size="15"><tspan fill="#a78bfa">~</tspan> building across the stack<tspan class="cursor" dx="6" fill="#58e5ed">▌</tspan></text>
     <text x="60" y="360" class="mono" fill="#65748d" font-size="11" letter-spacing="2">CODE WITH CONTEXT. OPERATE WITH INTENT.</text>
     <path d="M0 389H1200" stroke="url(#accent)" stroke-width="3"/>
   </g>
