@@ -26,7 +26,7 @@ frontend: [React, JavaScript, HTML, CSS]
 backend: [Python, PHP, MySQL]
 
 infrastructure:
-  os: Linux
+  os: Windows
   containers: Docker
   web: Nginx
   ci_cd: [GitHub Actions, GitLab CI/CD]
