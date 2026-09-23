@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Seeuagaen — Middle DevOps Engineer</title>
+  <desc id="desc">Dark technology banner with a flowing infrastructure grid, a rotating orbital diagram and a blinking terminal cursor.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101827"/><stop offset="1" stop-color="#090d16"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#58e5ed"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#6550bc" stop-opacity=".25"/><stop offset="1" stop-color="#6550bc" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#263147" stroke-width=".7"/></pattern>
+    <clipPath id="bounds"><rect x="1" y="1" width="1198" height="388" rx="22"/></clipPath>
+    <style>
+      .mono{font-family:Consolas,'Courier New',monospace}.sans{font-family:'Segoe UI',Arial,sans-serif}
+      .orbit{transform-origin:968px 188px;animation:spin 32s linear infinite}.reverse{animation-direction:reverse;animation-duration:46s}
+      .cursor{animation:blink 1.3s steps(2,end) infinite}.packet{animation:packet 7s linear infinite}
+      @keyframes spin{to{transform:rotate(360deg)}}@keyframes blink{50%{opacity:0}}@keyframes packet{from{stroke-dashoffset:500}to{stroke-dashoffset:0}}
+      @media(prefers-reduced-motion:reduce){.orbit,.cursor,.packet{animation:none}}
+    </style>
+  </defs>
+  <g clip-path="url(#bounds)">
+    <rect width="1200" height="390" fill="url(#bg)"/>
+    <rect x="680" width="520" height="390" fill="url(#grid)" opacity=".6"/>
+    <ellipse cx="968" cy="190" rx="300" ry="270" fill="url(#glow)"/>
+    <path d="M732 100H800V188H852M732 290H805V225H852M1084 188H1150V100H1200" fill="none" stroke="#303e58"/>
+    <path class="packet" d="M732 100H800V188H852M732 290H805V225H852M1084 188H1150V100H1200" fill="none" stroke="#58e5ed" stroke-dasharray="24 476" stroke-width="2"/>
+    <circle cx="968" cy="188" r="116" fill="none" stroke="#34405b"/>
+    <g class="orbit"><circle cx="968" cy="188" r="116" fill="none" stroke="#58e5ed" stroke-width="2" stroke-dasharray="100 629"/><circle cx="968" cy="72" r="5" fill="#58e5ed"/></g>
+    <g class="orbit reverse"><circle cx="968" cy="188" r="91" fill="none" stroke="#a78bfa" stroke-dasharray="50 25 4 25" opacity=".6"/></g>
+    <rect x="913" y="143" width="110" height="90" rx="18" fill="#101827" stroke="#475371"/>
+    <text x="968" y="200" text-anchor="middle" class="mono" fill="#e8edf7" font-size="36">&gt;_</text>
+    <circle cx="56" cy="46" r="4" fill="#58e5ed"/>
+    <text x="72" y="51" class="mono" fill="#91a1b9" font-size="13" letter-spacing="2">DEV / OPS / REPEAT</text>
+    <text x="56" y="143" class="sans" fill="#f0f4ff" font-size="68" font-weight="700" letter-spacing="-2">Seeuagaen<tspan fill="#58e5ed">.</tspan></text>
+    <text x="60" y="193" class="mono" fill="#58e5ed" font-size="23">Middle DevOps Engineer</text>
+    <text x="60" y="237" class="sans" fill="#a7b4c9" font-size="19">Frontend / Backend / React</text>
+    <path d="M60 272H620" stroke="url(#accent)" opacity=".5"/>
+    <text x="60" y="312" class="mono" fill="#8595af" font-size="15"><tspan fill="#a78bfa">~</tspan> building across the stack</text>
+    <rect class="cursor" x="365" y="297" width="9" height="18" fill="#58e5ed"/>
+    <text x="60" y="360" class="mono" fill="#65748d" font-size="11" letter-spacing="2">CODE WITH CONTEXT. OPERATE WITH INTENT.</text>
+    <path d="M0 389H1200" stroke="url(#accent)" stroke-width="3"/>
+  </g>
+  <rect x="1" y="1" width="1198" height="388" rx="22" fill="none" stroke="#29344b"/>
+</svg>

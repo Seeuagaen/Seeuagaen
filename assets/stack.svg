@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="166" viewBox="0 0 760 166" role="img" aria-labelledby="title">
+  <title id="title">Core focus: DevOps, React, Frontend, Backend. Public project technologies: JavaScript, Python, HTML, CSS.</title>
+  <style>text{font-family:Consolas,'Courier New',monospace;font-size:14px}.label{font-size:10px;letter-spacing:2px;fill:#91a1b9}</style>
+  <rect x=".5" y=".5" width="759" height="165" rx="16" fill="#0d1320" stroke="#29344b"/>
+  <text x="24" y="27" class="label">CORE FOCUS</text>
+  <g fill="#142735" stroke="#2f5969"><rect x="24" y="40" width="122" height="34" rx="7"/><rect x="156" y="40" width="122" height="34" rx="7"/><rect x="288" y="40" width="142" height="34" rx="7"/><rect x="440" y="40" width="142" height="34" rx="7"/></g>
+  <g fill="#78e8ed" text-anchor="middle"><text x="85" y="62">DevOps</text><text x="217" y="62">React</text><text x="359" y="62">Frontend</text><text x="511" y="62">Backend</text></g>
+  <text x="24" y="102" class="label">ALSO USED IN PUBLIC PROJECTS</text>
+  <g fill="#1b1b31" stroke="#423956"><rect x="24" y="115" width="142" height="30" rx="7"/><rect x="176" y="115" width="110" height="30" rx="7"/><rect x="296" y="115" width="94" height="30" rx="7"/><rect x="400" y="115" width="94" height="30" rx="7"/></g>
+  <g fill="#c5b5f4" text-anchor="middle"><text x="95" y="135">JavaScript</text><text x="231" y="135">Python</text><text x="343" y="135">HTML</text><text x="447" y="135">CSS</text></g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="title desc">
+  <title id="title">Build → Deploy → Observe → Improve</title>
+  <desc id="desc">Animated engineering loop with flowing cyan signals connecting four stages.</desc>
+  <defs><linearGradient id="line"><stop stop-color="#58e5ed"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
+  <style>text{font-family:Consolas,'Courier New',monospace}.flow{animation:flow 8s linear infinite}@keyframes flow{to{stroke-dashoffset:-1000}}@media(prefers-reduced-motion:reduce){.flow{animation:none}}</style>
+  <rect x="1" y="1" width="1198" height="188" rx="18" fill="#0d1320" stroke="#29344b"/>
+  <path d="M172 85H1028V155H172Z" fill="none" stroke="#2b3650" stroke-width="2"/>
+  <path class="flow" d="M172 85H1028V155H172Z" fill="none" stroke="url(#line)" stroke-width="2" stroke-dasharray="60 440"/>
+  <g fill="#131e2e" stroke="#3b4a64"><rect x="52" y="38" width="240" height="91" rx="12"/><rect x="338" y="38" width="240" height="91" rx="12"/><rect x="624" y="38" width="240" height="91" rx="12"/><rect x="910" y="38" width="240" height="91" rx="12"/></g>
+  <g font-size="11" fill="#8595af"><text x="72" y="61">01 / CREATE</text><text x="358" y="61">02 / DELIVER</text><text x="644" y="61">03 / UNDERSTAND</text><text x="930" y="61">04 / ITERATE</text></g>
+  <g font-size="25" fill="#e8edf7"><text x="72" y="100">Build<tspan fill="#58e5ed">.</tspan></text><text x="358" y="100">Deploy<tspan fill="#58e5ed">.</tspan></text><text x="644" y="100">Observe<tspan fill="#a78bfa">.</tspan></text><text x="930" y="100">Improve<tspan fill="#a78bfa">.</tspan></text></g>
+</svg>
